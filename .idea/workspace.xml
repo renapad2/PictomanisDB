@@ -4,21 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/PictomanisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/PictomanisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Categoria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Idiomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Idiomas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Membership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Membership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Pictograma.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Pictograma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Resenas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Resenas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Rol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Rol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IPictogramaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IPictogramaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/PictogramaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/PictogramaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IPictogramaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IPictogramaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pictomanis/PictomanisApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pictomanis/PictomanisApplicationTests.java" afterDir="false" />
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/ICategoriaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IIdiomasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IMembershipRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IResenasRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IRolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IUsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/CategoriaServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/MembershipServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/UsuarioServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/ICategoriaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IIdiomasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IMembershipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IResenasService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="com.haulmont.jpb.NewInterface" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,14 +67,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2GGeooNqBXACwMvPRnBs4km01AI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -82,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666019526399</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1666023682416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666023682416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,5 +131,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
