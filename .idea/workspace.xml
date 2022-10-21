@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Service Impl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/CategoriaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/IdiomasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/MembershipController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/PictogramaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/RolController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/UsuarioController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IUsuarioService.java" afterDir="false" />
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Controllers">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/config/SwaggerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/UsuarioServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666025770571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Controllers">
+      <created>1666395398601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666395398601</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +135,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Service Impl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service Impl" />
+    <MESSAGE value="Controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers" />
   </component>
 </project>
