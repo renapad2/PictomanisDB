@@ -9,7 +9,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/categorias")
-public class CategoriaController {
+public class
+CategoriaController {
     @Autowired
     private ICategoriaService cService;
     @PostMapping

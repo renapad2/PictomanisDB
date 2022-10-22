@@ -6,12 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Swagger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/CategoriaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/MembershipController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/MembershipController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IMembershipRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IMembershipRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Membership.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Membership.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/CategoriaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/CategoriaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/MembershipServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/MembershipServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IMembershipService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IMembershipService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/PictogramaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/PictogramaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/UsuarioServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/UsuarioServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +83,26 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="PictomanisApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pictomanis.PictomanisApplication" />
+      <module name="Pictomanis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pictomanis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PictomanisApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

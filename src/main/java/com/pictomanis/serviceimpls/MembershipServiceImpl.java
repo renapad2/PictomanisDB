@@ -4,10 +4,12 @@ import com.pictomanis.entities.Membership;
 import com.pictomanis.repositories.IMembershipRepository;
 import com.pictomanis.serviceinterfaces.IMembershipService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class MembershipServiceImpl implements IMembershipService {
     @Autowired
     private IMembershipRepository mR;

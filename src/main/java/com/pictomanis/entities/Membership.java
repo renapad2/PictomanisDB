@@ -8,8 +8,8 @@ public class Membership {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idMembership;
-    @Column(name = "nameMiembro",length = 45,nullable = false)
-    private String nameMiembro;
+    @Column(name = "nameMembership",length = 45,nullable = false)
+    private String nameMembership;
     @Column(name = "type",length = 35,nullable = false)
     private String type;
 
@@ -19,7 +19,7 @@ public class Membership {
 
     public Membership(int idMembership,String nameMiembro,String type){
         this.idMembership = idMembership;
-        this.nameMiembro = nameMiembro;
+        this.nameMembership = nameMiembro;
         this.type = type;
     }
 
@@ -31,12 +31,12 @@ public class Membership {
         this.idMembership = idMembership;
     }
 
-    public String getNameMiembro() {
-        return nameMiembro;
+    public String getNameMembership() {
+        return nameMembership;
     }
 
-    public void setNameMiembro(String nameMiembro) {
-        this.nameMiembro = nameMiembro;
+    public void setNameMembership(String nameMembership) {
+        this.nameMembership = nameMembership;
     }
 
     public String getType() {

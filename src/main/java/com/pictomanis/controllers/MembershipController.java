@@ -14,19 +14,27 @@ public class MembershipController {
     @Autowired
     private IMembershipService mService;
     @PostMapping
-    public void registrar(@RequestBody Membership m) {mService.insert(m);}
+    public void registrar(@RequestBody Membership m) {
+        mService.insert(m);
+    }
     @GetMapping
-    public List<Membership> list() {return mService.list();}
+    public List<Membership> list() {
+        return mService.list();
+    }
     @PutMapping
-    public void update(@RequestBody Membership m) {mService.insert(m);}
+    public void update(@RequestBody Membership m) {
+        mService.insert(m);
+    }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable("id") Integer id) {mService.delete(id);}
+    public void delete(@PathVariable("id") Integer id) {
+        mService.delete(id);
+    }
     @PostMapping("/find")
     public List<Membership> findName(@RequestBody Membership ms) throws ParseException{
         List<Membership> listMembership;
-        ms.setNameMiembro(ms.getNameMiembro());
-        listMembership = mService.findName(ms.getNameMiembro());
+        ms.setNameMembership(ms.getNameMembership());
+        listMembership = mService.findName(ms.getNameMembership());
         return listMembership;
     }
 }
