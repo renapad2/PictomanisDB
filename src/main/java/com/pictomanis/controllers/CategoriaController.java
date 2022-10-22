@@ -16,4 +16,5 @@ public class CategoriaController {
     public void registrar(@RequestBody Categoria c) {cService.insert(c);}
     @GetMapping
     public List<Categoria> list() {return cService.list();}
+
 }

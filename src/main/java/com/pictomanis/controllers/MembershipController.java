@@ -5,6 +5,7 @@ import com.pictomanis.serviceinterfaces.IMembershipService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.text.ParseException;
 import java.util.List;
 
 @RestController
@@ -16,4 +17,16 @@ public class MembershipController {
     public void registrar(@RequestBody Membership m) {mService.insert(m);}
     @GetMapping
     public List<Membership> list() {return mService.list();}
+    @PutMapping
+    public void update(@RequestBody Membership m) {mService.insert(m);}
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id) {mService.delete(id);}
+    @PostMapping("/find")
+    public List<Membership> findName(@RequestBody Membership ms) throws ParseException{
+        List<Membership> listMembership;
+        ms.setNameMiembro(ms.getNameMiembro());
+        listMembership = mService.findName(ms.getNameMiembro());
+        return listMembership;
+    }
 }

@@ -15,4 +15,5 @@ public class CategoriaServiceImpl implements ICategoriaService {
 
     @Override
     public List<Categoria> list(){return cR.findAll();}
+
 }
