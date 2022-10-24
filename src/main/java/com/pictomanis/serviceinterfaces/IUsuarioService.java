@@ -1,6 +1,5 @@
 package com.pictomanis.serviceinterfaces;
 
-import com.pictomanis.entities.Membership;
 import com.pictomanis.entities.Usuario;
 
 import java.util.List;
