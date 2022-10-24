@@ -20,17 +20,16 @@ public class ResenasServiceImpl implements IResenasService {
     public List<Resenas> list(){return rR.findAll();}
 
     @Override
-    public void delete(int idResenas) {
-
+    public void delete(int idResenas) { rR.deleteById(idResenas);
     }
 
     @Override
     public Optional<Resenas> listId(int idResenas) {
-        return Optional.empty();
+        return Optional.of(rR.findById(idResenas).orElse(new Resenas()));
     }
 
     @Override
     public List<Resenas> findName(String nameResenas) {
-        return null;
+        return rR.findName(nameResenas);
     }
 }

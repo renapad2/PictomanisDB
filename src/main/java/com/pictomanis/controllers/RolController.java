@@ -27,7 +27,7 @@ public class RolController {
     public List<Rol> findName(@RequestBody Rol ro) throws ParseException {
         List<Rol> listRol;
         ro.setNameRol(ro.getNameRol());
-        listRol = roService.findName(ro.getNameRol());
+        listRol = roService.findname(ro.getNameRol());
         return listRol;
     }
 }

@@ -10,6 +10,7 @@ import java.util.List;
 
 @Repository
 public interface IResenasRepository extends JpaRepository<Resenas,Integer> {
-    @Query("from Resenas r where r.nameResenas like %:nameResenas")
+    @Query("from Resenas r where r.nameResenas like %:nameResenas%")
     List<Resenas> findName(@Param("nameResenas") String nameResenas);
+
 }
