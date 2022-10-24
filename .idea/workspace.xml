@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Modificación del controller Rol">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Modificación del ServiceImpls y ServiceInterface Rol" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666571622933</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modificación del ServiceImpls y ServiceInterface Rol">
+      <created>1666572298610</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666572298610</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +174,7 @@
     <MESSAGE value="Controllers" />
     <MESSAGE value="Swagger" />
     <MESSAGE value="Modificación del controller Rol" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificación del controller Rol" />
+    <MESSAGE value="Modificación del ServiceImpls y ServiceInterface Rol" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificación del ServiceImpls y ServiceInterface Rol" />
   </component>
 </project>
