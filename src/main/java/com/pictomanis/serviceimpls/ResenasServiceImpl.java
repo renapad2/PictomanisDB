@@ -14,13 +14,18 @@ public class ResenasServiceImpl implements IResenasService {
     @Autowired
     private IResenasRepository rR;
     @Override
-    public void insert(Resenas resenas){rR.save(resenas);}
+    public void insert(Resenas resenas){
+        rR.save(resenas);
+    }
 
     @Override
-    public List<Resenas> list(){return rR.findAll();}
+    public List<Resenas> list(){
+        return rR.findAll();
+    }
 
     @Override
-    public void delete(int idResenas) { rR.deleteById(idResenas);
+    public void delete(int idResenas) {
+        rR.deleteById(idResenas);
     }
 
     @Override

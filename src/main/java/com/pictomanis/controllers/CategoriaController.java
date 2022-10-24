@@ -14,8 +14,24 @@ CategoriaController {
     @Autowired
     private ICategoriaService cService;
     @PostMapping
-    public void registrar(@RequestBody Categoria c) {cService.insert(c);}
+    public void registrar(@RequestBody Categoria c) {
+        cService.insert(c);
+    }
     @GetMapping
-    public List<Categoria> list() {return cService.list();}
+    public List<Categoria> list() {
+        return cService.list();
+    }
+    @PutMapping
+    public void update(@RequestBody Categoria c){
+        cService.insert(c);
+    }
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id){
+        cService.delete(id);
+    }
+    @PostMapping("/find")
+    public List<Categoria> findName(@RequestBody Categoria cs){
+        return cService.findName(cs.getNameCategoria());
+    }
 
 }
