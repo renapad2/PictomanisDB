@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class PictogramaServiceImpl implements IPictogramaService {
@@ -18,5 +19,22 @@ public class PictogramaServiceImpl implements IPictogramaService {
     }
 
     @Override
-    public List<Pictograma> list(){return pR.findAll();}
+    public List<Pictograma> list(){
+        return pR.findAll();
+    }
+
+    @Override
+    public void delete(int idPictograma){
+        pR.deleteById(idPictograma);
+    }
+
+    @Override
+    public Optional<Pictograma> listId(int idPictograma){
+        return Optional.of(pR.findById(idPictograma).orElse(new Pictograma()));
+    }
+
+    @Override
+    public List<Pictograma> findName(String namePictograma){
+        return pR.findName(namePictograma);
+    }
 }

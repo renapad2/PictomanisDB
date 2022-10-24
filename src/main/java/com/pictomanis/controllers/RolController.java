@@ -1,7 +1,6 @@
 package com.pictomanis.controllers;
 
 import com.pictomanis.entities.Rol;
-import com.pictomanis.entities.Usuario;
 import com.pictomanis.serviceinterfaces.IRolService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
