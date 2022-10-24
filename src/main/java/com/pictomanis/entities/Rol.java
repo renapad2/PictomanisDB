@@ -28,11 +28,11 @@ public class Rol {
         this.idRol = idRol;
     }
 
-    public String getRolName() {
+    public String getNameRol() {
         return rolName;
     }
 
-    public void setRolName(String rolName) {
+    public void setNameRol(String rolName) {
         this.rolName = rolName;
     }
 }
