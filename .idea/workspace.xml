@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Resenas service y repository">
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Resenas controller, resenas repository, rol service, rol controller y rol implement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/RolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IResenasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IResenasRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IRolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IRolRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666019526399</updated>
-      <workItem from="1666578561110" duration="5398000" />
+      <workItem from="1666578561110" duration="6675000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666023682416</created>
@@ -170,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666580896826</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Resenas controller, resenas repository, rol service, rol controller y rol implement">
+      <created>1666584280726</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666584280726</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +208,7 @@
     <MESSAGE value="Swagger" />
     <MESSAGE value="Orden Memberships" />
     <MESSAGE value="Resenas service y repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resenas service y repository" />
+    <MESSAGE value="Resenas controller, resenas repository, rol service, rol controller y rol implement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resenas controller, resenas repository, rol service, rol controller y rol implement" />
   </component>
 </project>

@@ -22,7 +22,7 @@ public class ResenasController {
     @DeleteMapping("/{id}")
     public void delete(@PathVariable("id") Integer id){ rService.delete(id);}
     @PostMapping("/find")
-    public List<Resenas> findname(@RequestBody Resenas rs) {
+    public List<Resenas> findName(@RequestBody Resenas rs) {
         return  rService.findName(rs.getNameResenas());
 
     }
