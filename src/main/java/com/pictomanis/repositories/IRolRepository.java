@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface IRolRepository extends JpaRepository<Rol,Integer> {
-    @Query("from Rol r where r.rolName like %:rolName%")
-    List<Rol> findName(@Param("rolName") String rolName);
+    @Query("from Rol r where r.nameRol like %:nameRol%")
+    List<Rol> findName(@Param("nameRol") String nameRol);
 }

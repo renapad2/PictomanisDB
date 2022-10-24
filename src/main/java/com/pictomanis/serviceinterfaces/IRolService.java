@@ -10,5 +10,5 @@ public interface IRolService {
     List<Rol> list();
     public void delete(int idRol);
     public Optional<Rol> listId(int idRol);
-    List<Rol> findname(String nameRol);
+    List<Rol> findName(String nameRol);
 }

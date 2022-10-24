@@ -31,7 +31,5 @@ public class ResenasController {
     @PostMapping("/find")
     public List<Resenas> findName(@RequestBody Resenas rs) {
         return  rService.findName(rs.getNameResenas());
-
     }
-
 }
