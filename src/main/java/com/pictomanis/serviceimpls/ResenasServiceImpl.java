@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class ResenasServiceImpl implements IResenasService {
     @Autowired
@@ -16,4 +18,19 @@ public class ResenasServiceImpl implements IResenasService {
 
     @Override
     public List<Resenas> list(){return rR.findAll();}
+
+    @Override
+    public void delete(int idResenas) {
+
+    }
+
+    @Override
+    public Optional<Resenas> listId(int idResenas) {
+        return Optional.empty();
+    }
+
+    @Override
+    public List<Resenas> findName(String nameResenas) {
+        return null;
+    }
 }
