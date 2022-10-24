@@ -14,13 +14,19 @@ public class MembershipServiceImpl implements IMembershipService {
     @Autowired
     private IMembershipRepository mR;
     @Override
-    public void insert(Membership membership){mR.save(membership);}
+    public void insert(Membership membership){
+        mR.save(membership);
+    }
 
     @Override
-    public List<Membership> list(){return mR.findAll();}
+    public List<Membership> list(){
+        return mR.findAll();
+    }
 
     @Override
-    public void delete(int idMembership) {mR.deleteById(idMembership);}
+    public void delete(int idMembership) {
+        mR.deleteById(idMembership);
+    }
 
     @Override
     public Optional<Membership> listId(int idMembership){
