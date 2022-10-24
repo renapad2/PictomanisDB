@@ -7,43 +7,43 @@ import javax.persistence.*;
 public class Idiomas {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idIdioma;
-    @Column(name = "nameIdioma",length = 45,nullable = false)
-    private String nameIdioma;
-    @Column(name = "resena",length = 45,nullable = false)
-    private String resena;
+    private int idIdiomas;
+    @Column(name = "nameIdiomas",length = 45,nullable = false)
+    private String nameIdiomas;
+    @Column(name = "resenas",length = 45,nullable = false)
+    private String resenas;
 
     public Idiomas(){
 
     }
 
     public Idiomas(int idIdioma,String nameIdioma,String resena){
-        this.idIdioma = idIdioma;
-        this.nameIdioma = nameIdioma;
-        this.resena = resena;
+        this.idIdiomas = idIdioma;
+        this.nameIdiomas = nameIdioma;
+        this.resenas = resena;
     }
 
-    public int getIdIdioma() {
-        return idIdioma;
+    public int getIdIdiomas() {
+        return idIdiomas;
     }
 
-    public void setIdIdioma(int idIdioma) {
-        this.idIdioma = idIdioma;
+    public void setIdIdiomas(int idIdiomas) {
+        this.idIdiomas = idIdiomas;
     }
 
-    public String getNameIdioma() {
-        return nameIdioma;
+    public String getNameIdiomas() {
+        return nameIdiomas;
     }
 
-    public void setNameIdioma(String nameIdioma) {
-        this.nameIdioma = nameIdioma;
+    public void setNameIdiomas(String nameIdiomas) {
+        this.nameIdiomas = nameIdiomas;
     }
 
-    public String getResena() {
-        return resena;
+    public String getResenas() {
+        return resenas;
     }
 
-    public void setResena(String resena) {
-        this.resena = resena;
+    public void setResenas(String resenas) {
+        this.resenas = resenas;
     }
 }

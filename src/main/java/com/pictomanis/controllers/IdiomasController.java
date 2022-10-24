@@ -30,6 +30,6 @@ public class IdiomasController {
     }
     @PostMapping("/find")
     public List<Idiomas> findName(@RequestBody Idiomas is){
-        return iService.findName(is.getNameIdioma());
+        return iService.findName(is.getNameIdiomas());
     }
 }

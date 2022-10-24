@@ -17,7 +17,6 @@ public class IdiomasServiceImpl implements IIdiomasService {
     public void insert(Idiomas idiomas) {
         iR.save(idiomas);
     }
-
     @Override
     public List<Idiomas> list(){
         return iR.findAll();

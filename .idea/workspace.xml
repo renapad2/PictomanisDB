@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Pictograma Controller Fix">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/ResenasController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/RolController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/RolController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IRolRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IRolRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/RolServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IRolService.java" afterDir="false" />
+    <list default="true" id="ff802c75-f12b-4dba-a09d-987759aed192" name="Changes" comment="Usuario Fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/IdiomasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/controllers/IdiomasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Idiomas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Idiomas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Rol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/entities/Rol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IIdiomasRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/repositories/IIdiomasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/IdiomasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceimpls/ResenasServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IIdiomasService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pictomanis/serviceinterfaces/IIdiomasService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666610675293</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Rol Fix">
+      <created>1666611009014</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666611009014</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Usuario Fix">
+      <created>1666611174036</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666611174036</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +270,8 @@
     <MESSAGE value="Categoria Fix" />
     <MESSAGE value="Idiomas Fix" />
     <MESSAGE value="Pictograma Controller Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pictograma Controller Fix" />
+    <MESSAGE value="Rol Fix" />
+    <MESSAGE value="Usuario Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usuario Fix" />
   </component>
 </project>

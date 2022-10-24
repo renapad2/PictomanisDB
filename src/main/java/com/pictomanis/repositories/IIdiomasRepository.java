@@ -10,6 +10,6 @@ import java.util.List;
 
 @Repository
 public interface IIdiomasRepository extends JpaRepository<Idiomas,Integer> {
-    @Query("from Idiomas i where i.nameIidiomas like %:nameIdiomas%")
+    @Query("from Idiomas i where i.nameIdiomas like %:nameIdiomas%")
     List<Idiomas> findName(@Param("nameIdiomas") String nameIdiomas);
 }
